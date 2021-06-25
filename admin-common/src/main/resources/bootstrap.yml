@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: 02-add-nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        group: local-test
+        namespace: 8372d9c0-9c58-4561-92a7-a603ee2e1190
+      config:
+        server-addr: 127.0.0.1:8848
+        group: local-test
+        namespace: 8372d9c0-9c58-4561-92a7-a603ee2e1190
+        file-extension: yml
